@@ -1,0 +1,151 @@
+knowls on web page to help the form filling
+
+all entries should take unicode
+
+
+mysql -u root -p
+
+/*  CREATE DATABASE ptx-catalog; */
+
+USE ptx-catalog;
+
+
+
+CREATE TABLE IF NOT EXISTS projects(
+project_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,     
+
+projext_xml_id varchar(nnn) FOREIGN KEY NOT NULL,  /* permid??? */
+project_document_id varchar(nnn) FOREIGN KEY NOT NULL,    /*  such as "beezer-FCLA" */
+project_title
+project_subtitle
+project_coauthors_id
+
+project_license_type
+project_license_variant       /* e.g. CC */
+project_license_version
+project_publication_year      /* Most recent publication date */
+project_price_currency
+project_price_amount
+
+
+project_subject_id
+project_target_level_id   /* UG lower division */
+project_maturity_id       /* include inactive/abandoned etc */
+ such as "beezer-FCLA"
+
+project_source_URL
+project_html_URL
+project_pdf_URL
+project_print_URL
+project_ancillary_id        /* Multiple options workbook, instructor manual, EPUB, Runestone, Jupytper, braille  */
+
+project_description_onesentence
+project_descritpion_full   /* Exposed by knowl */
+
+/* Description (Blurb) */
+
+    /* N.B. Markup here (and elsewhere) is HTML, not PreTeXt!       */
+    /* So use <i></i> for book titles and <a href=""></a> for       */
+    /* hyperlinks.  (But note that the "sites" element is the       */
+    /* best place to put links pointing to parts of  your project.  */
+
+    /* onesentence (required) */
+    /*   * Likely visible, so short and succinct                    */
+    /*   * "description" (following) will amplify the "onesentence" */
+    /*   * HTML respected (e.g. <i> for italics), do not use an     */
+    /*     overall element (e.g. <p>) to surround entire sentence   */
+
+    /* description (optional, but highly encouraged) */
+    /*   * optional                                                 */
+    /*   * a sequence of HTML "p" elements, lists should be OK      */
+    /*   * can contain simple markup, additional URLs               */
+    /*   * a narrative description of the project's aims            */
+    /*   * include distinctive features not possible above/below    */
+    /*   * knowled, so brevity not required                         */
+    /*   * HTML respected, do use elements like <p>                 */
+
+project_features  (binary string length 20?)  /* 1=gets a badge displayed */
+/* features
+        hints="no"
+        answers="no"
+        solutions="no"
+        reading-questions="no"
+        webwork="no"
+        videos="no"
+        worksheets="no"
+        projects="no"
+        accessible="no"
+        self-study="no"
+        instructor-solutions="no"
+        instructor-guide="no"
+        test-bank="no"
+*/    
+
+
+
+project_recognition  /* Presence on AIM Textbook initiative site */
+project_award_id  /* Citation text Presence should be a binary indicator, so something
+    like a badge (trophy?) should indicate a knowl for this text. */
+
+description TEXT );
+
+
+
+CREATE TABLE IF NOT EXISTS authors(
+author_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+author_displayname
+author_url
+author_email
+author_affiliation 1,2,3??
+
+);
+
+
+CREATE TABLE IF NOT EXISTS coauthors(
+coauthors_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+coauthors_project_id FOREIGN KEY (coauthors_project_id) REFERENCES projects(project_id)
+coauthors_author_id
+
+
+/* Capture when all authors have same affiliation   Sort by
+affiliation then name? */
+);
+
+	
+CREATE TABLE IF NOT EXISTS subject(
+subject_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+subject_name (math, cs, physics, engr, writing, music, doc,
+expository, misc )
+);
+
+CREATE TABLE IF NOT EXISTS level(
+level_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+level_name
+);
+
+# e.g. ugld
+
+CREATE TABLE IF NOT EXISTS phase(
+phase_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+phase_name
+);
+
+/*   @phase: develop, ready, mature, converting                 */
+    /*     'develop'                                                */
+    /*        in-progress, not ready for other instructors          */
+    /*     'ready'                                                  */
+    /*        could be used for a course, but more work planned     */
+    /*     'mature'                                                 */
+    /*        useful and pedagogically complete now, even if        */
+    /*        more improvements are planned                         */
+    /*     'converting'                                             */
+    /*        ready/mature in another format, work in-progress      */
+    /*        for PreTeXt versions                                  */
+
+CREATE TABLE IF NOT EXISTS ancillary (
+ancillary_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ancillary_name  
+ /* Multiple options workbook, instructor manual, EPUB, Runestone,
+ Jupytper, braille  */
+
+);
