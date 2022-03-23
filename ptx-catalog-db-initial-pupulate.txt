@@ -1,0 +1,37 @@
+/*  Template
+
+INSERT INTO books
+(title, author_id, isbn, year_pub)
+VALUES('The Trial', '1', '0805210407', '1995'),
+('The Metamorphosis', '1', '0553213695', '1995'),
+('America', '1', '0805210644', '1995');
+
+*/
+
+
+ INSERT INTO authors
+ (author_displayname, author_url, author_email, author_affiliation_1,
+ author_affiliation_2)
+ VALUES ('Thomas R. Shemanske',
+ 'https://math.dartmouth.edu/~trs','thomas.r.shemanske@dartmouth.edu',
+'Department of Mathematics, Dartmouth College','Grantham, NH'),
+
+('Benjamin Linowitz', 'https://www.oberlin.edu/benjamin-linowitz',
+'Benjamin.Linowitz@oberlin.edu', 'Department of Mathematics, Oberlin C',''),
+
+('Lynne H. Walling', 'https://people.maths.bris.ac.uk/~malhw/',
+'malhw@bristol.ac.uk','U of Bristol, Bristol, UK',''),
+
+
+('Stephanie Treneer', 'https://mathematics.wwu.edu/people/trenees',
+'trenees@wwu.edu', 'Western Washington U','');
+
+/*
+INSERT INTO projects
+(  list)
+VALUES(  );
+
+INSERT INTO coauthors
+(coauthors_project_id, coauthors_author_id, coauthors_affiliation)
+(LAST_INSERT_ID,  xx, yy);
+*/

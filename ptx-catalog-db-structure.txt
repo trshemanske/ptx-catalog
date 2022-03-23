@@ -1,6 +1,6 @@
-knowls on web page to help the form filling
+/* knowls on web page to help the form filling
 
-all entries should take unicode
+all character entries should take unicode */
 
 
 mysql -u root -p
@@ -14,8 +14,10 @@ USE ptx-catalog;
 CREATE TABLE IF NOT EXISTS projects(
 project_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,     
 
-projext_xml_id varchar(nnn) FOREIGN KEY NOT NULL,  /* permid??? */
-project_document_id varchar(nnn) FOREIGN KEY NOT NULL,    /*  such as "beezer-FCLA" */
+projext_xml_id varchar(nnn) NOT NULL,  /* abstract-algebra-refresher */
+project_document_id varchar(nnn) NOT NULL,    /*  such as
+"beezer-FCLA" shemanske-AAR */
+/* <body id=""> in beezer-FCLA */
 project_title
 project_subtitle
 project_coauthors_id
@@ -67,7 +69,7 @@ project_descritpion_full   /* Exposed by knowl */
 project_features  (binary string length 20?)  /* 1=gets a badge displayed */
 /* features
         hints="no"
-        answers="no"
+1        answers="no"
         solutions="no"
         reading-questions="no"
         webwork="no"
