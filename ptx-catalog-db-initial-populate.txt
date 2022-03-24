@@ -1,0 +1,102 @@
+/*  Template
+
+INSERT INTO books
+(title, author_id, isbn, year_pub)
+VALUES('The Trial', '1', '0805210407', '1995'),
+('The Metamorphosis', '1', '0553213695', '1995'),
+('America', '1', '0805210644', '1995');
+
+*/
+
+/*
+ INSERT INTO authors
+ (author_displayname, author_url, author_email, author_affiliation_1,
+ author_affiliation_2)
+ VALUES ('Thomas R. Shemanske',
+ 'https://math.dartmouth.edu/~trs','thomas.r.shemanske@dartmouth.edu',
+'Department of Mathematics, Dartmouth College','Grantham, NH'),
+
+('Benjamin Linowitz', 'https://www.oberlin.edu/benjamin-linowitz',
+'Benjamin.Linowitz@oberlin.edu', 'Department of Mathematics, Oberlin C',''),
+
+('Lynne H. Walling', 'https://people.maths.bris.ac.uk/~malhw/',
+'malhw@bristol.ac.uk','U of Bristol, Bristol, UK',''),
+
+
+('Stephanie Treneer', 'https://mathematics.wwu.edu/people/trenees',
+'trenees@wwu.edu', 'Western Washington U','');
+
+*/
+
+/*
+Build static tables
+*/
+
+INSERT into subjects
+(subject_id, subject_name)
+VALUES
+(1,'Math'),(2,'Computer Science'),(3,'Physics'),(4,'Engineering'),
+(5,'Expository'),(6,'Documentation'),(7, 'Miscellaneous'),
+(8,'Writing'),(9,'Music'),(10,'Mature-converting to PTX'),(11,'In Development');
+
+
+
+
+INSERT into levels
+(level_id, level_name)
+VALUES
+(1,'Primary'),(2,'Lower Division'),(3,'Upper Division'),(4,'Graduate'),(5,'Research');
+
+
+INSERT into phases
+(phase_id, phase_name, phase_description)
+VALUES
+(1,'Development','In-progress, not ready for other instructors'),
+(2,'Ready','Could be used for a course, but more work planned'),
+(3,'Mature','Useful and pedagogically complete now, even if more
+improvements are planned '),
+(4,'Converting','ready/mature in another format, work in-progress for
+PreTeXt versions');
+
+
+
+
+INSERT into projects
+(project_xml_id, project_title,
+project_subtitle,project_license_code,project_publication_year,
+project_subject_id, project_target_level_id,project_phase_id)
+VALUES ('shemanske-LocalSelectivity','Local Selectivity of Orders in
+Central Simple Algebras','A Classic Tale','GFDL',2017,'1','5',3);
+
+
+INSERT into coauthors /* coauthors_id is autoincrement */
+(coauthors_project_id, coauthors_displayname,
+coauthors_url, coauthors_email, coauthors_affiliation)
+VALUES
+('shemanske-LocalSelectivity', 'Benjamin Linowitz','https://www.oberlin.edu/benjamin-linowitz',
+'Benjamin.Linowitz@oberlin.edu', 'Department of Mathematics, Oberlin
+C'),
+('shemanske-LocalSelectivity','Thomas
+R. shemanske','https://math.dartmouth.edu/~trs','thomas.r.shemanske@dartmouth.edu','Department
+of Mathematics, Dartmouth College');
+
+
+INSERT into projects
+(project_xml_id, project_title,
+project_subtitle,project_license_code,project_publication_year,
+project_subject_id, project_target_level_id,project_phase_id)
+VALUES ('shemanske-SplitOrdersConvexPolytopes','Split Orders and
+Convex Polytopes','','GFDL',2010,'1','5',3);
+
+
+
+INSERT into coauthors /* coauthors_id is autoincrement */
+(coauthors_project_id, coauthors_displayname,
+coauthors_url, coauthors_email, coauthors_affiliation)
+VALUES
+('shemanske-SplitOrdersConvexPolytopes','Thomas
+R. shemanske','https://math.dartmouth.edu/~trs','thomas.r.shemanske@dartmouth.edu','Department
+of Mathematics, Dartmouth College');
+
+
+

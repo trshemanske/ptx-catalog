@@ -1,0 +1,47 @@
+
+
+
+select coauthors_displayname from coauthors where coauthors_project_id='shemanske-LocalSelectivity';
++-----------------------+
+| coauthors_displayname |
++-----------------------+
+| Benjamin Linowitz     |
+| Thomas
+R. shemanske   |
++-----------------------+
+2 rows in set (0.000 sec)
+
+MariaDB [ptx_catalog]> select coauthors_displayname from coauthors;
++-----------------------+
+| coauthors_displayname |
++-----------------------+
+| Benjamin Linowitz     |
+| Thomas
+R. shemanske   |
++-----------------------+
+2 rows in set (0.000 sec)
+
+MariaDB [ptx_catalog]> select coauthors_displayname from coauthors where coauthors_project_id LIKE 'shemanske%';
++-----------------------+
+| coauthors_displayname |
++-----------------------+
+| Benjamin Linowitz     |
+| Thomas
+R. shemanske   |
++-----------------------+
+2 rows in set (0.007 sec)
+
+
+
+MariaDB [ptx_catalog]> select distinct project_title, coauthors_displayname from projects join coauthors on coauthors_displayname like '%Shemanske%';
++--------------------------------------------------------+-----------------------+
+| project_title                                          | coauthors_displayname |
++--------------------------------------------------------+-----------------------+
+| Local Selectivity of Orders in
+Central Simple Algebras | Thomas
+R. shemanske   |
+| Split Orders and
+Convex Polytopes                      | Thomas
+R. shemanske   |
++--------------------------------------------------------+-----------------------+
+2 rows in set (0.000 sec)
