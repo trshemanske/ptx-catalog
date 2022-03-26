@@ -1,3 +1,94 @@
+USE mysql;
+
+CREATE USER 'ptx'@'localhost' IDENTIFIED BY 'ptx_db_pw';
+GRANT ALL PRIVILEGES ON ptx_catalog.* TO 'ptx'@'localhost' WITH GRANT
+OPTION;
+
+
+GRANT PRIVILEGE ON database.table TO 'username'@'host';
+
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES,
+RELOAD on *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES;
+
+
+USE information_schema;
+
+SELECT TABLE_NAME 'Table', COLUMN_NAME 'Field', COLUMN_TYPE 'Type', IS_NULLABLE 'Null',
+  COLUMN_KEY 'Key', COLUMN_DEFAULT 'Default', EXTRA 'Extra'
+FROM information_schema.columns
+WHERE table_schema = 'ptx_catalog'
+ORDER BY TABLE_NAME;
+
+MariaDB [ptx_catalog]> USE information_schema;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MariaDB [information_schema]> 
+MariaDB [information_schema]> SELECT TABLE_NAME 'Table', COLUMN_NAME 'Field', COLUMN_TYPE 'Type', IS_NULLABLE 'Null',
+    ->   COLUMN_KEY 'Key', COLUMN_DEFAULT 'Default', EXTRA 'Extra'
+    -> FROM information_schema.columns
+    -> WHERE table_schema = 'ptx_catalog'
+    -> ORDER BY TABLE_NAME;
++-------------+---------------------------------+---------------+------+-----+---------+----------------+
+| Table       | Field                           | Type          | Null | Key | Default | Extra          |
++-------------+---------------------------------+---------------+------+-----+---------+----------------+
+| ancillary   | ancillary_id                    | int(11)       | NO   | PRI | NULL    | auto_increment |
+| ancillary   | ancillary_name                  | varchar(50)   | NO   |     | NULL    |                |
+| coauthors   | coauthors_id                    | int(11)       | NO   | PRI | NULL    | auto_increment |
+| coauthors   | coauthors_project_id            | varchar(100)  | NO   | MUL | NULL    |                |
+| coauthors   | coauthors_displayname           | varchar(100)  | NO   |     | NULL    |                |
+| coauthors   | coauthors_url                   | varchar(100)  | NO   |     | NULL    |                |
+| coauthors   | coauthors_email                 | varchar(100)  | NO   |     | NULL    |                |
+| coauthors   | coauthors_affiliation           | blob          | NO   |     | NULL    |                |
+| coauthors   | coauthors_affiliation_2         | blob          | YES  |     | NULL    |                |
+| features    | feature_id                      | int(11)       | NO   | PRI | NULL    |                |
+| features    | feature_name                    | varchar(100)  | YES  |     | NULL    |                |
+| features    | feature_URL                     | varchar(200)  | YES  |     | NULL    |                |
+| levels      | level_id                        | int(11)       | NO   | PRI | NULL    | auto_increment |
+| levels      | level_name                      | varchar(100)  | YES  |     | NULL    |                |
+| licenses    | license_code                    | varchar(20)   | NO   | PRI | NULL    |                |
+| licenses    | license_name                    | varchar(100)  | YES  |     | NULL    |                |
+| licenses    | license_URL                     | varchar(200)  | YES  |     | NULL    |                |
+| phases      | phase_id                        | int(11)       | NO   | PRI | NULL    | auto_increment |
+| phases      | phase_name                      | varchar(100)  | YES  |     | NULL    |                |
+| phases      | phase_description               | varchar(300)  | YES  |     | NULL    |                |
+| projects    | project_xml_id                  | varchar(100)  | NO   | PRI | NULL    |                |
+| projects    | project_title                   | varchar(256)  | NO   |     | NULL    |                |
+| projects    | project_subtitle                | varchar(256)  | YES  |     | NULL    |                |
+| projects    | project_license_code            | varchar(20)   | NO   | MUL | NULL    |                |
+| projects    | project_license_variant         | varchar(20)   | YES  |     | NULL    |                |
+| projects    | project_license_version         | varchar(20)   | YES  |     | NULL    |                |
+| projects    | project_publication_year        | year(4)       | NO   |     | NULL    |                |
+| projects    | project_price_currency          | char(1)       | YES  |     | NULL    |                |
+| projects    | project_price_amount            | decimal(5,2)  | YES  |     | NULL    |                |
+| projects    | project_subject_id              | int(11)       | NO   | MUL | NULL    |                |
+| projects    | project_target_level_id         | int(11)       | NO   |     | NULL    |                |
+| projects    | project_phase_id                | int(11)       | NO   | MUL | NULL    |                |
+| projects    | project_source_URL              | varchar(2048) | YES  |     | NULL    |                |
+| projects    | project_html_URL                | varchar(2048) | YES  |     | NULL    |                |
+| projects    | project_pdf_URL                 | varchar(2048) | YES  |     | NULL    |                |
+| projects    | project_print_URL               | varchar(2048) | YES  |     | NULL    |                |
+| projects    | project_ancillary_ids           | varchar(20)   | YES  |     | NULL    |                |
+| projects    | project_description_onesentence | blob          | YES  |     | NULL    |                |
+| projects    | project_descritpion_full        | blob          | YES  |     | NULL    |                |
+| projects    | project_features                | varchar(20)   | YES  |     | NULL    |                |
+| projects    | project_recognition_code        | varchar(20)   | YES  | MUL | NULL    |                |
+| projects    | project_award_id                | varchar(20)   | YES  |     | NULL    |                |
+| recognition | recognition_code                | varchar(20)   | NO   | PRI | NULL    |                |
+| recognition | recognition_name                | varchar(100)  | YES  |     | NULL    |                |
+| recognition | recognition_URL                 | varchar(200)  | YES  |     | NULL    |                |
+| subjects    | subject_id                      | int(11)       | NO   | PRI | NULL    |                |
+| subjects    | subject_name                    | varchar(100)  | YES  |     | NULL    |                |
++-------------+---------------------------------+---------------+------+-----+---------+----------------+
+47 rows in set (0.002 sec)
+
+
+
 
 
 

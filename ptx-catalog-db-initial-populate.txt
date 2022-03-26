@@ -58,8 +58,37 @@ improvements are planned '),
 (4,'Converting','ready/mature in another format, work in-progress for
 PreTeXt versions');
 
+INSERT into features
+(feature_id, feature_name, feature_URL)
+VALUES
+(1,'hints','https://pretextbook.org/badges/hints.png'),
+(2,'answers','https://pretextbook.org/badges/answers.png'),
+(3,'solutions','https://pretextbook.org/badges/solutions.png'),
+(4,'reading-questions','https://pretextbook.org/badges/reading-questions.png'),
+(5,'webwork','https://pretextbook.org/badges/webwork.png'),
+(6,'videos','https://pretextbook.org/badges/videos.jpg'),
+(7,'worksheets','https://pretextbook.org/badges/worksheets.png'),
+(8,'projects','https://pretextbook.org/badges/projects.png'),
+(9,'accessible','https://pretextbook.org/badges/accessible.png'),
+(10,'self-study','https://pretextbook.org/badges/self-study.png'),
+(11,'instructor-solutions','https://pretextbook.org/badges/instructor-solutions.png'),
+(12,'instructor-guide','https://pretextbook.org/badges/instructor-guide.png'),
+(13,'test-bank','https://pretextbook.org/badges/test-bank.png');
 
+INSERT into licenses
+(license_code,license_name,license_URL)
+VALUES
+('CC','Creative Commons License','https://pretextbook.org/badges/cc.png'),
+('GFDL','General Free Documentation License','https://pretextbook.org/badges/gfdl.png'),
+('MIT','MIT Open Source License','https://pretextbook.org/badges/MiT_opensource.png'),
+('all-rights','All Rights Reserved','https://pretextbook.org/badges/copyright.jpg'),
+('undecided','All Rights Reserved','https://pretextbook.org/badges/copyright.jpg'),
+('public','Public Domain','https://pretextbook.org/badges/public.png');
 
+INSERT into recognition
+(recognition_code,recognition_name,recognition_URL)
+VALUES
+('AIM','AIM Approved','https://pretextbook.org/badges/aim.png');
 
 INSERT into projects
 (project_xml_id, project_title,
@@ -76,8 +105,7 @@ VALUES
 ('shemanske-LocalSelectivity', 'Benjamin Linowitz','https://www.oberlin.edu/benjamin-linowitz',
 'Benjamin.Linowitz@oberlin.edu', 'Department of Mathematics, Oberlin
 C'),
-('shemanske-LocalSelectivity','Thomas
-R. shemanske','https://math.dartmouth.edu/~trs','thomas.r.shemanske@dartmouth.edu','Department
+('shemanske-LocalSelectivity','Thomas R. shemanske','https://math.dartmouth.edu/~trs','thomas.r.shemanske@dartmouth.edu','Department
 of Mathematics, Dartmouth College');
 
 
@@ -94,8 +122,7 @@ INSERT into coauthors /* coauthors_id is autoincrement */
 (coauthors_project_id, coauthors_displayname,
 coauthors_url, coauthors_email, coauthors_affiliation)
 VALUES
-('shemanske-SplitOrdersConvexPolytopes','Thomas
-R. shemanske','https://math.dartmouth.edu/~trs','thomas.r.shemanske@dartmouth.edu','Department
+('shemanske-SplitOrdersConvexPolytopes','Thomas R. shemanske','https://math.dartmouth.edu/~trs','thomas.r.shemanske@dartmouth.edu','Department
 of Mathematics, Dartmouth College');
 
 
