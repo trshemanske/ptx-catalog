@@ -1,34 +1,4 @@
-USE mysql;
 
-CREATE USER 'ptx'@'localhost' IDENTIFIED BY 'ptx_db_pw';
-GRANT ALL PRIVILEGES ON ptx_catalog.* TO 'ptx'@'localhost' WITH GRANT
-OPTION;
-
-
-GRANT PRIVILEGE ON database.table TO 'username'@'host';
-
-GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES,
-RELOAD on *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
-
-GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
-
-FLUSH PRIVILEGES;
-
-
-USE information_schema;
-
-SELECT TABLE_NAME 'Table', COLUMN_NAME 'Field', COLUMN_TYPE 'Type', IS_NULLABLE 'Null',
-  COLUMN_KEY 'Key', COLUMN_DEFAULT 'Default', EXTRA 'Extra'
-FROM information_schema.columns
-WHERE table_schema = 'ptx_catalog'
-ORDER BY TABLE_NAME;
-
-MariaDB [ptx_catalog]> USE information_schema;
-Reading table information for completion of table and column names
-You can turn off this feature to get a quicker startup with -A
-
-Database changed
-MariaDB [information_schema]> 
 MariaDB [information_schema]> SELECT TABLE_NAME 'Table', COLUMN_NAME 'Field', COLUMN_TYPE 'Type', IS_NULLABLE 'Null',
     ->   COLUMN_KEY 'Key', COLUMN_DEFAULT 'Default', EXTRA 'Extra'
     -> FROM information_schema.columns
@@ -45,8 +15,8 @@ MariaDB [information_schema]> SELECT TABLE_NAME 'Table', COLUMN_NAME 'Field', CO
 | coauthors   | coauthors_displayname           | varchar(100)  | NO   |     | NULL    |                |
 | coauthors   | coauthors_url                   | varchar(100)  | NO   |     | NULL    |                |
 | coauthors   | coauthors_email                 | varchar(100)  | NO   |     | NULL    |                |
-| coauthors   | coauthors_affiliation           | blob          | NO   |     | NULL    |                |
-| coauthors   | coauthors_affiliation_2         | blob          | YES  |     | NULL    |                |
+| coauthors   | coauthors_affiliation           | text          | NO   |     | NULL    |                |
+| coauthors   | coauthors_affiliation_2         | text          | YES  |     | NULL    |                |
 | features    | feature_id                      | int(11)       | NO   | PRI | NULL    |                |
 | features    | feature_name                    | varchar(100)  | YES  |     | NULL    |                |
 | features    | feature_URL                     | varchar(200)  | YES  |     | NULL    |                |
@@ -91,50 +61,80 @@ MariaDB [information_schema]> SELECT TABLE_NAME 'Table', COLUMN_NAME 'Field', CO
 
 
 
+MariaDB [ptx_catalog]> 
+MariaDB [ptx_catalog]> select * from levels;
++----------+----------------+
+| level_id | level_name     |
++----------+----------------+
+|        1 | Primary        |
+|        2 | Lower Division |
+|        3 | Upper Division |
+|        4 | Graduate       |
+|        5 | Research       |
++----------+----------------+
+5 rows in set (0.000 sec)
 
+MariaDB [ptx_catalog]> select * from phases;
++----------+-------------+-------------------------------------------------------------------------------+
+| phase_id | phase_name  | phase_description                                                             |
++----------+-------------+-------------------------------------------------------------------------------+
+|        1 | Development | In-progress, not ready for other instructors                                  |
+|        2 | Ready       | Could be used for a course, but more work planned                             |
+|        3 | Mature      | Useful and pedagogically complete now, even if more
+improvements are planned  |
+|        4 | Converting  | ready/mature in another format, work in-progress for
+PreTeXt versions         |
++----------+-------------+-------------------------------------------------------------------------------+
+4 rows in set (0.000 sec)
 
+MariaDB [ptx_catalog]> select * from features;
++------------+----------------------+---------------------------------------------------------+
+| feature_id | feature_name         | feature_URL                                             |
++------------+----------------------+---------------------------------------------------------+
+|          1 | hints                | https://pretextbook.org/badges/hints.png                |
+|          2 | answers              | https://pretextbook.org/badges/answers.png              |
+|          3 | solutions            | https://pretextbook.org/badges/solutions.png            |
+|          4 | reading-questions    | https://pretextbook.org/badges/reading-questions.png    |
+|          5 | webwork              | https://pretextbook.org/badges/webwork.png              |
+|          6 | videos               | https://pretextbook.org/badges/videos.jpg               |
+|          7 | worksheets           | https://pretextbook.org/badges/worksheets.png           |
+|          8 | projects             | https://pretextbook.org/badges/projects.png             |
+|          9 | accessible           | https://pretextbook.org/badges/accessible.png           |
+|         10 | self-study           | https://pretextbook.org/badges/self-study.png           |
+|         11 | instructor-solutions | https://pretextbook.org/badges/instructor-solutions.png |
+|         12 | instructor-guide     | https://pretextbook.org/badges/instructor-guide.png     |
+|         13 | test-bank            | https://pretextbook.org/badges/test-bank.png            |
++------------+----------------------+---------------------------------------------------------+
+13 rows in set (0.000 sec)
 
-select coauthors_displayname from coauthors where coauthors_project_id='shemanske-LocalSelectivity';
-+-----------------------+
-| coauthors_displayname |
-+-----------------------+
-| Benjamin Linowitz     |
-| Thomas
-R. shemanske   |
-+-----------------------+
-2 rows in set (0.000 sec)
+MariaDB [ptx_catalog]> select * from licenses;
++--------------+------------------------------------+---------------------------------------------------+
+| license_code | license_name                       | license_URL                                       |
++--------------+------------------------------------+---------------------------------------------------+
+| all-rights   | All Rights Reserved                | https://pretextbook.org/badges/copyright.jpg      |
+| CC           | Creative Commons License           | https://pretextbook.org/badges/cc.png             |
+| GFDL         | General Free Documentation License | https://pretextbook.org/badges/gfdl.png           |
+| MIT          | MIT Open Source License            | https://pretextbook.org/badges/MiT_opensource.png |
+| public       | Public Domain                      | https://pretextbook.org/badges/public.png         |
+| undecided    | All Rights Reserved                | https://pretextbook.org/badges/copyright.jpg      |
++--------------+------------------------------------+---------------------------------------------------+
+6 rows in set (0.000 sec)
 
-MariaDB [ptx_catalog]> select coauthors_displayname from coauthors;
-+-----------------------+
-| coauthors_displayname |
-+-----------------------+
-| Benjamin Linowitz     |
-| Thomas
-R. shemanske   |
-+-----------------------+
-2 rows in set (0.000 sec)
+MariaDB [ptx_catalog]> select * from subjects;
++------------+--------------------------+
+| subject_id | subject_name             |
++------------+--------------------------+
+|          1 | Math                     |
+|          2 | Computer Science         |
+|          3 | Physics                  |
+|          4 | Engineering              |
+|          5 | Expository               |
+|          6 | Documentation            |
+|          7 | Miscellaneous            |
+|          8 | Writing                  |
+|          9 | Music                    |
+|         10 | Mature-converting to PTX |
+|         11 | In Development           |
++------------+--------------------------+
+11 rows in set (0.001 sec)
 
-MariaDB [ptx_catalog]> select coauthors_displayname from coauthors where coauthors_project_id LIKE 'shemanske%';
-+-----------------------+
-| coauthors_displayname |
-+-----------------------+
-| Benjamin Linowitz     |
-| Thomas
-R. shemanske   |
-+-----------------------+
-2 rows in set (0.007 sec)
-
-
-
-MariaDB [ptx_catalog]> select distinct project_title, coauthors_displayname from projects join coauthors on coauthors_displayname like '%Shemanske%';
-+--------------------------------------------------------+-----------------------+
-| project_title                                          | coauthors_displayname |
-+--------------------------------------------------------+-----------------------+
-| Local Selectivity of Orders in
-Central Simple Algebras | Thomas
-R. shemanske   |
-| Split Orders and
-Convex Polytopes                      | Thomas
-R. shemanske   |
-+--------------------------------------------------------+-----------------------+
-2 rows in set (0.000 sec)

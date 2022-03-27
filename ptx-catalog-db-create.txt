@@ -30,14 +30,15 @@ project_subject_id int NOT NULL,
 project_target_level_id int NOT NULL,            /* UG lower division */
 project_phase_id int NOT NULL,                   /* include inactive/abandoned etc */
 
+project_landing_URL varchar(2048),
 project_source_URL varchar(2048),
 project_html_URL varchar(2048),
 project_pdf_URL varchar(2048),
 project_print_URL varchar(2048),
 project_ancillary_ids varchar(20),               /* Multiple options workbook, instructor manual, EPUB, Runestone, Jupytper, braille  */
 
-project_description_onesentence blob,
-project_descritpion_full blob,                   /* Exposed by knowl */
+project_description_onesentence text,
+project_descritpion_full text,                   /* Exposed by knowl */
 
 project_features varchar(20),                    /* 1=gets a badge displayed */
 project_recognition_code  varchar(20),                /* Presence on AIM Textbook initiative site */
@@ -71,8 +72,8 @@ coauthors_project_id varchar(100) NOT NULL,  /* coauthors_project_id keyed to pr
 coauthors_displayname VARCHAR(100) NOT NULL,
 coauthors_url VARCHAR(100) NOT NULL,
 coauthors_email VARCHAR(100) NOT NULL,
-coauthors_affiliation BLOB NOT NULL,  /* Multiple entries allowed --- HTML?? */
-coauthors_affiliation_2 BLOB
+coauthors_affiliation TEXT NOT NULL,  /* Multiple entries allowed --- HTML?? */
+coauthors_affiliation_2 TEXT
 
 /* Add these constraints after table creations */
 /* CONSTRAINT `fk_project_xml_id`
@@ -157,9 +158,9 @@ author_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
 author_displayname VARCHAR(100) NOT NULL,
 author_url VARCHAR(100) NOT NULL,
 author_email VARCHAR(100) NOT NULL,
-author_affiliation_1 BLOB NOT NULL,
-author_affiliation_2 BLOB,
-author_affiliation_3 BLOB
+author_affiliation_1 TEXT NOT NULL,
+author_affiliation_2 TEXT,
+author_affiliation_3 TEXT
 );
 */
 

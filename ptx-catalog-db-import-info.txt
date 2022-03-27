@@ -1,0 +1,106 @@
+
+/* How to format xml data for transfer */
+
+/*  Beezer-FCLA  has inserts into tables projects and coauthors */
+
+INSERT into projects
+(project_xml_id,
+project_title,
+project_subtitle,
+
+project_license_code,
+project_license_variant,
+project_license_version,
+
+project_publication_year,
+project_price_currency,
+project_price_amount,
+
+project_subject_id,
+project_target_level_id,
+project_phase_id,
+
+project_landing_URL,
+project_source_URL,
+project_html_URL,
+project_pdf_URL,
+project_print_URL,
+project_ancillary_ids,
+
+project_description_onesentence,
+project_description_full,
+
+
+project_features,
+project_recognition_code,
+project_award_id
+)
+VALUES
+('beezer-FCLA',
+'A First Course in Linear Algebra',
+NULL,
+
+'GFDL',
+NULL,
+NULL,
+
+2006,
+'$',
+30.19,
+
+'1',
+'2',
+'3',
+
+'http://linear.pugetsound.edu/',
+'https://github.com/rbeezer/fcla',
+'http://linear.pugetsound.edu/fcla/',
+'http://linear.pugetsound.edu/download.html',
+'http://linear.pugetsound.edu/physical.html',
+NULL,
+
+
+'A textbook for an introductory linear algebra course with an
+algebraic approach that serves as a transition course for math majors,
+emphasizing definitions, theorems, and proofs.',
+
+'<p xmlns:xi="http://www.w3.org/2001/XInclude"> The book that started
+it all, now converted to PreTeXt (its third source format).</p>
+		  
+<p xmlns:xi="http://www.w3.org/2001/XInclude">
+
+This book is aimed at mathematics majors, seeing their first course
+after calculus that stresses theorems and their proofs.  It contains a
+very thorough introduction to the use of the open source system,
+
+<a href="http://sagemath.org">Sage</a>, for linear algebra.  Besides
+an extensive collection of traditional exercises, there are also reading
+questions for each of the thirty-seven (daily) sections.</p>',
+
+
+'0011000001000',
+'AIM',
+NULL
+);
+
+
+
+
+INSERT into coauthors
+(coauthors_project_id,
+coauthors_displayname,
+coauthors_url,
+coauthors_email,
+coauthors_affiliation,
+coauthors_affiliation_2
+)
+VALUES
+(
+'beezer-FCLA',
+'Robert A. Beezer',
+'http://buzzard.ups.edu',
+'BEEZER[at]UPS[dot]EDU',
+'Mathematics and Computer Science, University of Puget Sound',
+NULL
+);
+
