@@ -22,7 +22,7 @@ project_license_code varchar(20) NOT NULL,       /* e.g. CC, GFDL, MIT, all-righ
 project_license_variant varchar(20),             /* CC only   "BY-SA"??? */
 project_license_version varchar(20),
 
-project_publication_year YEAR NOT NULL,          /* Most recent publication year */
+project_publication_year YEAR,          /* Most recent publication year */
 project_price_currency char(1),                  /* $ euros, pounds, etc */
 project_price_amount decimal(5,2),               /* nnn.nn */
 
