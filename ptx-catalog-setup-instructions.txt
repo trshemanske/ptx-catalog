@@ -1,0 +1,80 @@
+This assumes you have a mariadb derver running on your linux system;
+Creation of a mysql root user is usually an option at the time you
+install the mariadb/mysql server.  This root user is NOT the root user
+on your linux system.  It is just manages all the databases.
+
+You'll need the top two for the mariadb-python connector; more later
+
+On debian (Ubuntu should be the same) I have:
+
+ii  libmariadb-dev                                   1:10.6.7-3                              amd64        MariaDB database development files
+ii  libmariadb3:amd64                                1:10.6.7-3                              amd64        MariaDB database client library
+ii  mariadb-client-10.6                              1:10.6.7-3                              amd64        MariaDB database client binaries
+ii  mariadb-client-core-10.6                         1:10.6.7-3                              amd64        MariaDB database core client binaries
+ii  mariadb-common                                   1:10.6.7-3                              all          MariaDB common configuration files
+ii  mariadb-plugin-connect                           1:10.6.7-3                              amd64        Connect storage engine for MariaDB
+ii  mariadb-server-10.6                              1:10.6.7-3                              amd64        MariaDB database server binaries
+ii  mariadb-server-core-10.6                         1:10.6.7-3                              amd64        MariaDB database core server files
+
+
+
+
+1. Create the ptx_catalog database
+
+If you have login credentials for a mysql root user then do this:
+
+mysql -u root -p
+CREATE DATABASE ptx_catalog;
+
+If you don't have a mysql root user, you should be able to
+sudo su (become root on linux box)
+
+mysql
+CREATE DATABASE ptx_catalog;
+
+2. Create a database user/password who can access the ptx_catalog
+database from the localhost; you should not need remote access since
+you can ssh to the server and run the script(s) from there.
+
+While still logged into the mariadb/mysql server as root, create a
+local user for the catalog.  These credentials (user/password) will be
+used in the Python script.
+
+USE mysql;
+
+CREATE USER 'ptx'@'localhost' IDENTIFIED BY 'ptx_db_pw';
+GRANT ALL PRIVILEGES ON ptx_catalog.* TO 'ptx'@'localhost' WITH GRANT
+OPTION;
+
+FLUSH PRIVILEGES;
+
+
+3. "quit;" from mysl and return to (root) shell.  Pull in a snapshot
+of the database:
+
+mysql ptx_catalog < ptx_catalog-2022-04-06.sql
+
+(or mysql -u root -p ptx_catalog < ptx_catalog-2022-04-06.sql)
+if you have a mysql root user
+
+
+4. Now you need to set up the mariadb-python connector
+
+See instructions at
+https://mariaprdb.com/docs/clients/mariadb-connectors/connector-python/
+
+#sudo apt install libmariadb3 libmariadb-dev
+#python3 -m pip install mariadb==1.0.10
+
+
+4. Change to a directory containing
+mariadb-python-catalog-generator.py
+ptx-catalog-frame-head.html
+
+Run the mariadb-python-catalog-generator.py script
+(Note its binary is /usr/bin/python3)
+
+It should produce
+ptx-catalog-frame.html
+
+which should be the frame to include in the catalog page.
