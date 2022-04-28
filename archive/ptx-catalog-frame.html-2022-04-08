@@ -1,14 +1,14 @@
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="https://pretextbook.org/js/lib/jquery.min.js"></script>
     <script src="https://pretextbook.org/js/lib/knowl.js"></script>
-
+    
     <script type="text/javascript" id="MathJax-script" async
 	    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
     </script>
-
-    <link rel="stylesheet" type="text/css" href="https://pretextbook.org/css/0.31/catalog.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://pretextbook.org/css/0.31/catalog.css">
     <script>window.MathJax = {
     tex: {
 	inlineMath: [['\\(','\\)']],
@@ -31,8 +31,9 @@
     },
 };
     </script>
-
+    
   </head>
+  
   <body>
     <div class="projects">
       <div class="category">
@@ -66,7 +67,7 @@ based on the storytelling tradition of Indigenous peoples.
 </p>
 <p>
   The first story, <pubtitle>Small Number Counts to 100</pubtitle> was
-  inspired by narration from Ms.<nbsp /> Rina Sinclair of the Siksika
+  inspired by narration from Ms.&nbsp;Rina Sinclair of the Siksika
   Nation.  The story can be shown to elementary school students as a
   counting practice/puzzle or as a pattern recognition problem.  For
   high school students it can be a way to introduce arithmetic
@@ -82,8 +83,8 @@ based on the storytelling tradition of Indigenous peoples.
 
           <div class="badges">
              <p>
-<img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"></img><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -119,8 +120,8 @@ A textbook for an introductory linear algebra course with an algebraic approach 
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -178,8 +179,8 @@ Textbook for a standard two-semester calculus course, emphasizing an active lear
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -215,8 +216,8 @@ Textbook for a standard one-semester multivariable calculus course, emphasizing 
 
           <div class="badges">
              <p>
-<img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -246,8 +247,8 @@ Textbook for a standard one-semester multivariable calculus course, emphasizing 
 
           <div class="badges">
              <p>
-<img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -277,8 +278,8 @@ A one semester calculus course aimed at business students, using Excel, and foll
 
           <div class="badges">
              <p>
-<img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -299,9 +300,9 @@ An <em>inquiry-based learning</em> approach to calculus.
               <a data-knowl="" class="id-ref" data-refid="hk-ted-calculus-description" title="Description"> Read more</a>
               <div class="description-knowl" id="hk-ted-calculus-description">
                  <article class="description">
-<p>These notes constitute a self-contained sequence for teaching,
-    using an inquiry-based pedagogy, most of the traditional topics
-    of Calculus I, II, &amp; III in classes of up to 40 students.</p>
+<p>These notes constitute a self-contained sequence for teaching, 
+    using an inquiry-based pedagogy, most of the traditional topics 
+    of Calculus I, II, & III in classes of up to 40 students.</p>
                 </article>
 
               </div> <!-- description-knowl -->
@@ -310,8 +311,8 @@ An <em>inquiry-based learning</em> approach to calculus.
 
           <div class="badges">
              <p>
-<img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -346,8 +347,8 @@ A lab manual with supplementary material for a first-semester calculus course.
 
           <div class="badges">
              <p>
-<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -382,8 +383,8 @@ A text for a standard first undergraduate differential calculus course.
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -418,8 +419,8 @@ A text for a standard first undergraduate integral calculus course.
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -454,8 +455,8 @@ A text for a standard first undergraduate multivariable calculus course.
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -490,8 +491,8 @@ A text for a standard first undergraduate vector calculus course.
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -521,8 +522,8 @@ Textbook for a discovery-based approach to linear algebra.
 
           <div class="badges">
              <p>
-<img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -559,8 +560,8 @@ A textbook for a first or second year undergraduate course in discrete mathemati
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -581,8 +582,8 @@ An <em>inquiry-based learning</em> approach to Discrete Mathematics.
               <a data-knowl="" class="id-ref" data-refid="hk-ted-discrete-description" title="Description"> Read more</a>
               <div class="description-knowl" id="hk-ted-discrete-description">
                  <article class="description">
-<p>This course constitutes a mathematically rigorous introduction to sets,
-        functions, counting, induction, equivalence relations, recursion,
+<p>This course constitutes a mathematically rigorous introduction to sets, 
+        functions, counting, induction, equivalence relations, recursion, 
         elementary graph theory, finite state machines, and languages.</p>
                 </article>
 
@@ -592,8 +593,8 @@ An <em>inquiry-based learning</em> approach to Discrete Mathematics.
 
           <div class="badges">
              <p>
-<img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -623,8 +624,8 @@ In class materials for an introduction to logic, proof, enumeration, relations, 
 
           <div class="badges">
              <p>
-<img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"></img><img class="badge" title="Accessible" src="https://pretextbook.org/badges/accessible.png"></img><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"><img class="badge" title="Accessible" src="https://pretextbook.org/badges/accessible.png"><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -655,7 +656,7 @@ A mashup of <i>Applied Discrete Structures</i> by Al Doerr and Ken Levasseur and
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -679,7 +680,7 @@ An activity-based text that studies algebraic skills in the context of modeling 
                  <article class="description">
 <p>Throughout the book, we incorporate applications to motivate new topics. We present ideas using verbal, numerical, and graphical tools. We use graphs extensively to illustrate algebraic techniques and to help students visualize relationships between variables. In the Homework Problems we break up skills practice into smaller sets of exercises and combine them with conceptual questions, graphing, and applications of various types.</p><p>We have included a number of features to encourage student participation.</p><ul>
             <li>The reading is broken into small segments by using boxes around Examples, definitions, and rules, and flags including Caution, Look Closer, and Look Ahead.</li>
-            <li>We want students to learn how to read a math book, so we have included Reading Questions that mirror the content of the lesson. For example, the first Reading Question is <q>A numerical quantity that changes over time or in different situations is called a
+            <li>We want students to learn how to read a math book, so we have included Reading Questions that mirror the content of the lesson. For example, the first Reading Question is <q>A numerical quantity that changes over time or in different situations is called a  
             __________ .</q> Ideally, students would answer these questions before class, perhaps through an on-line homework system.</li>
             <li>Each section ends with a Skills Warm-Up (with answers) for students to complete on their own. The Skills Warm-Up problems review an arithmetic or algebraic technique needed for the Lesson that follows.</li>
             <li>Because choosing appropriate scales for the axes is a time-consuming task for beginning students, the text includes labeled grids for most of the graphing exercises. Ready-made grids allow students to consider a wider range of examples (with <q>harder</q> numbers) and to focus on the properties of the graphs, such as intercepts and slope, and on interpreting the information given by the graph. If students are using technology to create graphs, the grids can help them choose an appropriate window.</li>
@@ -692,8 +693,8 @@ An activity-based text that studies algebraic skills in the context of modeling 
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -723,8 +724,8 @@ An inquiry-based introduction to game theory, appropriate for a non-majors quant
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img><img class="badge" title="Instructor Guide" src="https://pretextbook.org/badges/instructor-guide.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"><img class="badge" title="Instructor Guide" src="https://pretextbook.org/badges/instructor-guide.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -747,7 +748,7 @@ A companion guide for an undergraduate linear algebra course.
                  <article class="description">
 <p>This document provides an environment in which a student
         may enhance their understanding of the ideas in linear algebra
-        by working examples often too tedious to do by hand. We
+        by working examples often too tedious to do by hand. We 
         use Cocalc (SageMath) as the computational tool of choice.</p>
 
 
@@ -763,8 +764,8 @@ A companion guide for an undergraduate linear algebra course.
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"></img><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -810,8 +811,8 @@ A refresher of a first course in linear algebra.
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"></img><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -841,8 +842,8 @@ A textbook for a one-semester introductory linear algebra course, using real vec
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img>
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png">
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -887,8 +888,8 @@ Set of class notes for a first course in discrete math.
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -927,8 +928,8 @@ A textbook for a 100-level math for liberal art majors course, emphasizing techn
 
           <div class="badges">
              <p>
-<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"></img><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"></img><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img><img class="badge" title="Accessible" src="https://pretextbook.org/badges/accessible.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"><img class="badge" title="Accessible" src="https://pretextbook.org/badges/accessible.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -950,13 +951,13 @@ A textbook for a 100-level math for liberal art majors course, emphasizing techn
               <div class="description-knowl" id="hk-sundstrom-MRWP-description">
                  <article class="description">
 <p>
-          <i>Mathematical Reasoning: Writing and Proof</i> is a text for the ﬁrst college
-          mathematics course that introduces students to the processes of constructing
-          and writing proofs and focuses on the formal development of mathematics. Version 3 of
-          this book is almost identical to Version 2.1. The main change is that the preview
-          activities in Version 2.1 have been renamed to beginning activities in Version 3.
-          This was done to emphasize that these activities are meant to be completed before
-          starting the rest of the section and are not just a short preview of what is to
+          <i>Mathematical Reasoning: Writing and Proof</i> is a text for the ﬁrst college 
+          mathematics course that introduces students to the processes of constructing 
+          and writing proofs and focuses on the formal development of mathematics. Version 3 of 
+          this book is almost identical to Version 2.1. The main change is that the preview 
+          activities in Version 2.1 have been renamed to beginning activities in Version 3. 
+          This was done to emphasize that these activities are meant to be completed before 
+          starting the rest of the section and are not just a short preview of what is to 
           come in the rest of the section.
         </p><p>
           The primary goals of the text are to help students:
@@ -973,8 +974,8 @@ A textbook for a 100-level math for liberal art majors course, emphasizing techn
             </li>
             <li>
               <p>
-                develop the ability to construct and write mathematical proofs using
-                standard methods of mathematical proof including direct proofs, proof by
+                develop the ability to construct and write mathematical proofs using 
+                standard methods of mathematical proof including direct proofs, proof by 
                 contradiction, mathematical induction, case analysis, and counterexamples;
               </p>
             </li>
@@ -990,8 +991,8 @@ A textbook for a 100-level math for liberal art majors course, emphasizing techn
             </li>
             <li>
               <p>
-                improve their quality of communication in mathematics, which includes
-                improving writing techniques, reading comprehension, and oral communication
+                improve their quality of communication in mathematics, which includes 
+                improving writing techniques, reading comprehension, and oral communication 
                 in mathematics;
               </p>
             </li>
@@ -1002,24 +1003,24 @@ A textbook for a 100-level math for liberal art majors course, emphasizing techn
             </li>
             <li>
               <p>
-                Another important goal of this text is to provide students with material
+                Another important goal of this text is to provide students with material 
                 that will be needed for their further study of mathematics.
               </p>
             </li>
           </ul>
         </p><p>
-          Important features of the book include: Emphasis on writing in mathematics;
+          Important features of the book include: Emphasis on writing in mathematics; 
           instruction in the process of constructing proofs; and an emphasis on active learning.
         </p><p>
-          Screencasts designed for use with the book can be found on
+          Screencasts designed for use with the book can be found on 
           <a href="http://www.youtube.com/playlist?list=PL2419488168AE7001">YouTube</a>.
         </p><p>
-          Note to Instructors: Please contact Ted Sundstrom at
-          <a href="mailto:mathreasoning@gmail.com">mathreasoning@gmail.com</a> for
-          information about instructor resources such as solutions to the preview activities
-          and solutions to the exercises. In your email, please include the name of your
-          institution (school, college, or university), the course for which you are
-          considering using the text, and a link to a website that can be used to verify
+          Note to Instructors: Please contact Ted Sundstrom at 
+          <a href="mailto:mathreasoning@gmail.com">mathreasoning@gmail.com</a> for 
+          information about instructor resources such as solutions to the preview activities 
+          and solutions to the exercises. In your email, please include the name of your 
+          institution (school, college, or university), the course for which you are 
+          considering using the text, and a link to a website that can be used to verify 
           your position at your institution.
         </p>
                 </article>
@@ -1030,8 +1031,8 @@ A textbook for a 100-level math for liberal art majors course, emphasizing techn
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"></img><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1065,8 +1066,8 @@ Algorithms from the mathematician's viewpoint: an introductory course with Pytho
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1097,8 +1098,8 @@ A textbook that covers the content of a typical college algebra course with an e
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1134,8 +1135,8 @@ A textbook package for basic and intermediate algebra, suitable for a three-term
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"></img><img class="badge" title="Accessible" src="https://pretextbook.org/badges/accessible.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"><img class="badge" title="Accessible" src="https://pretextbook.org/badges/accessible.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1175,8 +1176,8 @@ Math Resources review introductory algebra, intermediate algebra, college algebr
 
           <div class="badges">
              <p>
-<img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1210,8 +1211,8 @@ This text aims to address all learning outcomes from the first course in Mt. Ho
 
           <div class="badges">
              <p>
-<img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1242,8 +1243,8 @@ An introductory trigonometry text that can be used in a variety of programs, sta
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1281,8 +1282,8 @@ A textbook for a one-semester introduction to linear algebra that does not assum
 
           <div class="badges">
              <p>
-<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1318,8 +1319,8 @@ A standard two-semester introductory course in abstract algebra covering groups,
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1362,8 +1363,8 @@ A refresher of a first course in abstract algebra.
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"></img><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1393,8 +1394,8 @@ This is an IBL problem set designed to introduce a student to euclidean, hyperbo
 
           <div class="badges">
              <p>
-<img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1424,8 +1425,8 @@ These notes provide a carefully scaffolded sequence of definitions, problems and
 
           <div class="badges">
              <p>
-<img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1456,8 +1457,8 @@ An <em>inquiry-based learning</em> approach to Analysis.
 
           <div class="badges">
              <p>
-<img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1499,8 +1500,8 @@ algorithm, network flows</li>
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1530,8 +1531,8 @@ A discrete mathematics text for a two-semester sequence that includes applied ab
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1576,8 +1577,8 @@ An introduction to combinatorics, consisting almost entirely of problems arrange
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1600,7 +1601,7 @@ A textbook suitable for an upper level undergraduate or Master's level discrete 
               <div class="description-knowl" id="hk-levin-ECM-description">
                  <article class="description">
 <p>
-          <em>Exploring Combinatorial Mathematics</em> is a free and open source textbook suitable for an upper level undergraduate or Master's level discrete math or combinatorics course, especially if the intended audience is pre-service or in-service secondary teachers.  The text borrows material from Bogart's <em><a href="http://bogart.openmathbooks.org/">Combinatorics through Guided Discovery</a></em> and Levin's <em><a href="http://discrete.openmathbooks.org/">Discrete Mathematics: an Open Introduction</a></em>, falling somewhere between these in terms of difficulty.
+          <em>Exploring Combinatorial Mathematics</em> is a free and open source textbook suitable for an upper level undergraduate or Master's level discrete math or combinatorics course, especially if the intended audience is pre-service or in-service secondary teachers.  The text borrows material from Bogart's <em><a href="http://bogart.openmathbooks.org/">Combinatorics through Guided Discovery</a></em> and Levin's <em><a href="http://discrete.openmathbooks.org/">Discrete Mathematics: an Open Introduction</a></em>, falling somewhere between these in terms of difficulty. 
         </p><p>
           This book was written specifically to be used as the textbook for the Master's level Discrete Mathematics course at
           the University of Northern Colorado. This course is part of a MA in Mathematics with a Teaching Emphasis. Most of the
@@ -1634,8 +1635,8 @@ A textbook suitable for an upper level undergraduate or Master's level discrete 
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1666,7 +1667,7 @@ One-semester undergraduate textbook emphasizing structure, homomorphisms, and is
           <div class="badges">
              <p>
 
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1696,8 +1697,8 @@ An introduction to hyperbolic, elliptic, and Euclidean geometry, motivated by qu
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1729,7 +1730,7 @@ An historically accurate introduction to real analysis for undergraduates.
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1759,8 +1760,8 @@ A one-semester course combining introductory group theory with Möbius, hyperbol
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1795,7 +1796,7 @@ Materials for teaching linear algebra using Team-Based Inquiry Learning.
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1829,7 +1830,7 @@ Materials for teaching linear algebra using Team-Based Inquiry Learning.
           <div class="badges">
              <p>
 
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1860,7 +1861,7 @@ A short introduction to non-Euclidean geometry, with integrated GeoGebra applets
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1897,8 +1898,8 @@ An undergraduate course on differential equations aimed at students in engineeri
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1928,8 +1929,8 @@ An undergraduate number theory text covering all the traditional topics from the
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1960,8 +1961,8 @@ In this book, we take an inquiry-oriented approach to modern algebra, with a foc
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img><img class="badge" title="Instructor Guide" src="https://pretextbook.org/badges/instructor-guide.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Self Study" src="https://pretextbook.org/badges/self-study.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"><img class="badge" title="Instructor Guide" src="https://pretextbook.org/badges/instructor-guide.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -1991,8 +1992,8 @@ An open source textbook designed to teach ordinary differential equations to upp
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2030,7 +2031,7 @@ A monograph on algebraic graph theory illustrated with many embedded Sage cells.
           <div class="badges">
              <p>
 
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2067,7 +2068,7 @@ An introduction to how computer hardware works from a programmer's point of view
           <div class="badges">
              <p>
 
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2105,7 +2106,7 @@ A free and open source textbook for a traditional, one-semester, engineering mec
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2142,7 +2143,7 @@ A humorous work of mathematical historical fiction aimed at celebrating the grea
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2173,7 +2174,7 @@ The first real PreTeXt project - an expository article on linear algebra publish
           <div class="badges">
              <p>
 
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2210,7 +2211,7 @@ This is a help manual for using <i>CalcPlot3D</i>, an interactive JavaScript app
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2242,7 +2243,7 @@ A tutorial or primer on <tt>git</tt>, using the management of a manuscript for e
           <div class="badges">
              <p>
 
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2276,7 +2277,7 @@ The definitive guide to writing and publishing documents in PreTeXt.
           <div class="badges">
              <p>
 
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2313,7 +2314,7 @@ Bylaws for the Eastern Pennsylvania and Delaware Section of the Mathematical Ass
           <div class="badges">
              <p>
 
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2344,7 +2345,7 @@ Meeting Program of Northeastern Section of the Mathematical Association of Ameri
           <div class="badges">
              <p>
 
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2361,7 +2362,7 @@ Meeting Program of Northeastern Section of the Mathematical Association of Ameri
             <a href="https://www.pugetsound.edu/center-writing-learning/sound-writing" class="title"
                target="_blank">Sound Writing</a>,
                <span class="authors">
-                  Center for Writing &amp; Learning
+                  Center for Writing & Learning
                </span>
           </div>  <!-- biblio -->
 
@@ -2381,7 +2382,7 @@ A guide to good academic writing at the college level, by students, for students
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2420,8 +2421,8 @@ Advanced High School Statistics provides a thorough intro to statistics and supp
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2451,8 +2452,8 @@ An inexpensive, open-source alternative to the traditional Calculus textbook.
 
           <div class="badges">
              <p>
-                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"></img><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge award" title="AIM Approved" src="https://pretextbook.org/badges/aim.png"><img class="badge" title="WeBWorK" src="https://pretextbook.org/badges/webwork.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2484,7 +2485,7 @@ Textbook for a typical one semester course in Differential Calculus, seen throug
           <div class="badges">
              <p>
 
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2514,8 +2515,8 @@ Textbook for a typical selection of topics in discrete mathematics, with a focus
 
           <div class="badges">
              <p>
-<img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Worksheets" src="https://pretextbook.org/badges/worksheets.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2551,8 +2552,8 @@ Advanced topics in linear algebra such as canonical forms, with an emphasis on t
 
           <div class="badges">
              <p>
-<img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Instructor Solutions" src="https://pretextbook.org/badges/instructor-solutions.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2584,7 +2585,7 @@ A one-semester introductory course in abstract algebra for teachers covering gro
           <div class="badges">
              <p>
 
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2615,8 +2616,8 @@ Notes de cours pour un premier cours d'algèbre linéaire, avec une forte emphas
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2646,8 +2647,8 @@ A hands-on, original source, look at the evolution of cryptology.
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2678,7 +2679,7 @@ These notes introduce the basics of general topology, including metrizability, c
           <div class="badges">
              <p>
 
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2708,8 +2709,8 @@ Introductory course in digital logic design, focusing on system design with the 
 
           <div class="badges">
              <p>
-<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"></img><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"></img><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png"></img>
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Reading Questions" src="https://pretextbook.org/badges/reading-questions.png"><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"><img class="badge" title="Projects" src="https://pretextbook.org/badges/projects.png">
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2748,7 +2749,7 @@ An introduction to high-performance computing, using matrix-matrix multiplicatio
           <div class="badges">
              <p>
 
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2778,8 +2779,8 @@ Second course in linear algebra including vector spaces, linear transformations,
 
           <div class="badges">
              <p>
-<img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+<img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2829,7 +2830,7 @@ Second course in linear algebra including vector spaces, linear transformations,
           <div class="badges">
              <p>
 
-                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg"></img>
+                <img class="badge license" title="All Rights Reserved" src="https://pretextbook.org/badges/copyright.jpg">
              </p>
           </div>   <!-- badges -->
 
@@ -2859,8 +2860,8 @@ Textbook for a four-semester college course in music theory.
 
           <div class="badges">
              <p>
-<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg"></img>
-                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png"></img>
+<img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Videos" src="https://pretextbook.org/badges/videos.jpg">
+                <img class="badge license" title="General Free Documentation License" src="https://pretextbook.org/badges/gfdl.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2890,8 +2891,8 @@ A highly tailored linear algebra book to be used at the University of Manitoba f
 
           <div class="badges">
              <p>
-<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"></img><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"></img><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png"></img>
-                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png"></img>
+<img class="badge" title="Hints" src="https://pretextbook.org/badges/hints.png"><img class="badge" title="Answers" src="https://pretextbook.org/badges/answers.png"><img class="badge" title="Student Solutions" src="https://pretextbook.org/badges/solutions.png">
+                <img class="badge license" title="Creative Commons License" src="https://pretextbook.org/badges/cc.png">
              </p>
           </div>   <!-- badges -->
 
@@ -2909,31 +2910,31 @@ A highly tailored linear algebra book to be used at the University of Manitoba f
    <table>
      <tr>
        <td style="vertical-align:top;padding-right:20px;">
-          Mathematics: 65<br />
-          Computer Science: 2<br />
-          Physics: 0<br />
-          Engineering: 2<br />
-          Expository: 2<br />
-          Documentation: 3<br />
-          Miscellaneous: 2<br />
-          Writing: 1<br />
-          Music: 1<br />
+          Mathematics: 65<br>
+          Computer Science: 2<br>
+          Physics: 0<br>
+          Engineering: 2<br>
+          Expository: 2<br>
+          Documentation: 3<br>
+          Miscellaneous: 2<br>
+          Writing: 1<br>
+          Music: 1<br>
        </td>
        <td style="vertical-align:top;padding-right:20px;">
-          All Rights Reserved: 10<br />
-          Creative Commons License: 44<br />
-          General Free Documentation License: 24<br />
-          MIT Open Source License: 0<br />
-          Public Domain: 0<br />
-          Undecided: 0<br />
+          All Rights Reserved: 4<br>
+          Creative Commons License: 44<br>
+          General Free Documentation License: 24<br>
+          MIT Open Source License: 0<br>
+          Public Domain: 0<br>
+          All Rights Reserved: 6<br>
        </td>
        <td style="vertical-align:top;padding-right:20px;">
-          Primary: 1<br />
-          Secondary: 0<br />
-          Lower Division: 47<br />
-          Upper Division: 24<br />
-          Graduate: 1<br />
-          Research: 5<br />
+          Primary: 1<br>
+          Secondary: 0<br>
+          Lower Division: 47<br>
+          Upper Division: 24<br>
+          Graduate: 1<br>
+          Research: 5<br>
        </td>
      </tr>
    </table>

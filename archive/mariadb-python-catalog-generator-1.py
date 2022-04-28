@@ -197,7 +197,7 @@ try:
             if len(recognition_list) != 0:
                 r_name = recognition_list[0][1]
                 r_URL = recognition_list[0][2]
-                outstring = "                <img class=\"badge award\" title=\"{}\" src=\"{}\"></img>"
+                outstring = "                <img class=\"badge award\" title=\"{}\" src=\"{}\">"
                 output.write(outstring.format(r_name,r_URL))
 
 #Features list of badges
@@ -210,7 +210,7 @@ try:
                     f_name = features_list[project_features_count][1]
                     f_URL = features_list[project_features_count][2]
 # No space between <img> tags to keep badges tight
-                    outstring = outstring + "title=\"{}\" src=\"{}\"></img>"
+                    outstring = outstring + "title=\"{}\" src=\"{}\">"
                     output.write(outstring.format(f_name, f_URL))
                 project_features_count += 1
 
@@ -223,7 +223,7 @@ try:
             if len(license_list) != 0:
                 l_name = license_list[0][1]
                 l_URL = license_list[0][2]
-                outstring = "\n                <img class=\"badge license\" title=\"{}\" src=\"{}\"></img>\n             </p>"
+                outstring = "\n                <img class=\"badge license\" title=\"{}\" src=\"{}\">\n             </p>"
                 output.write(outstring.format(l_name,l_URL))
 
             output.write("\n          </div>   <!-- badges -->\n")
@@ -254,7 +254,7 @@ try:
     for p_id in [1,2,3,4,5,6,7,8,9]:
         cursor.execute("SELECT project_xml_id FROM projects WHERE project_subject_id = ?", (p_id,))
         records = cursor.fetchall()
-        outstring = "          {}: {}<br />\n"
+        outstring = "          {}: {}<br>\n"
         output.write(outstring.format(subjects_list[p_id-1][1],len(records)))
     output.write("       </td>\n       <td style=\"vertical-align:top;padding-right:20px;\">\n")
 
@@ -264,14 +264,14 @@ try:
         records = cursor.fetchall()
         cursor.execute("SELECT license_name FROM licenses WHERE license_code = ?", (l_id,))
         l_name = cursor.fetchall()
-        outstring = "          {}: {}<br />\n"
+        outstring = "          {}: {}<br>\n"
         output.write(outstring.format(l_name[0][0],len(records)))
     output.write("       </td>\n       <td style=\"vertical-align:top;padding-right:20px;\">\n")
 
     for l_id in [1,2,3,4,5,6]:
         cursor.execute("SELECT project_xml_id FROM projects WHERE project_target_level_id = ?", (l_id,))
         records = cursor.fetchall()
-        outstring = "          {}: {}<br />\n"
+        outstring = "          {}: {}<br>\n"
         output.write(outstring.format(levels_list[l_id-1][1],len(records)))
     output.write("       </td>\n     </tr>\n   </table>\n")
 
