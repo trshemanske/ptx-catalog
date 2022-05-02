@@ -9,27 +9,17 @@
     </script>
 
     <link rel="stylesheet" type="text/css" href="https://pretextbook.org/css/0.31/catalog.css" />
-    <script>window.MathJax = {
-    tex: {
-	inlineMath: [['\\(','\\)']],
-	tags: "none",
-	tagSide: "right",
-	tagIndent: ".8em",
-	packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
-    },
-    options: {
-	ignoreHtmlClass: "tex2jax_ignore|ignore-math",
-	processHtmlClass: "process-math",
-    },
-    chtml: {
-	scale: 0.88,
-	mtextInheritFont: true
-    },
-    loader: {
-	load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
-	paths: {pretext: "https://pretextbook.org/js/lib"},
-    },
-};
+    <script>
+      window.MathJax = {
+                tex: {
+                        inlineMath: [['\\(','\\)']],
+                        packages: {'[+]': ['base', 'ams']}
+                },
+                chtml: {
+                        scale: 0.88,
+                        mtextInheritFont: true
+                },
+        };
     </script>
 
   </head>
