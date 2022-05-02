@@ -33,7 +33,7 @@ try:
     output = open("ptx-catalog-frame.html", "a")
     output.write("  <body>\n")
     output.write("    <a class=\"assistive\" href=\"#content\">Skip to main content</a>\n")
-    output.write("    <div id=\"content\" class=\"projects\">")
+    output.write("    <div class=\"projects\">")
 
 # Collect auxilliary database stuff here
 # fetchall() is an easier method for grabbing all the output
