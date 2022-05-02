@@ -1,30 +1,32 @@
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <script src="https://pretextbook.org/js/lib/jquery.min.js"></script>
-    <script src="https://pretextbook.org/js/lib/knowl.js"></script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(','\\)']],
+      packages: {'[+]': ['base', 'ams']}
+    },
+    chtml: {
+      scale: 0.88,
+      mtextInheritFont: true
+    },
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async=""
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 
-    <script type="text/javascript" id="MathJax-script" async=""
-	    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-    </script>
+<script src="https://pretextbook.org/js/lib/jquery.min.js"></script>
+<script src="https://pretextbook.org/js/lib/knowl.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="https://pretextbook.org/css/0.31/catalog.css" />
-    <script>
-      window.MathJax = {
-                tex: {
-                        inlineMath: [['\\(','\\)']],
-                        packages: {'[+]': ['base', 'ams']}
-                },
-                chtml: {
-                        scale: 0.88,
-                        mtextInheritFont: true
-                },
-        };
-    </script>
+<link rel="stylesheet" type="text/css" href="https://pretextbook.org/css/0.31/catalog.css" />
 
-  </head>
+
+</head>
   <body>
-    <div class="projects">
+    <a class="assistive" href="#content">Skip to main content</a>
+    <div id="content" class="projects">
       <div class="category">
         <span class="title">Mathematics, Primary</span>
 

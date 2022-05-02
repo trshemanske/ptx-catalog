@@ -32,7 +32,8 @@ try:
 # Reopen the output file for append
     output = open("ptx-catalog-frame.html", "a")
     output.write("  <body>\n")
-    output.write("    <div class=\"projects\">")
+    output.write("    <a class=\"assistive\" href=\"#content\">Skip to main content</a>\n")
+    output.write("    <div id=\"content\" class=\"projects\">")
 
 # Collect auxilliary database stuff here
 # fetchall() is an easier method for grabbing all the output
