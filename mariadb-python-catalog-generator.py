@@ -54,6 +54,7 @@ try:
 #    features_list = []
 #    features_list = [features_list + list(x) for x in cursor]
     features_list = cursor.fetchall()
+#    print(features_list)
 
     cursor.execute("SELECT * from subjects")
 #    subjects_list = []
@@ -182,7 +183,7 @@ try:
                 "\n          <div class=\"blurb\">\n             <p>\n")
             outstring = "{}\n"
             output.write(outstring.format(
-                project_data[current_project_count][18]))
+                project_data[current_project_count][19]))
             outstring = "              <a data-knowl=\"\" class=\"id-ref\" data-refid=\"hk-{}-description\" title=\"Description\"> Read more</a>\n             </p>\n"
             output.write(outstring.format(xml_id))
             outstring = "              <div class=\"description-knowl\" id=\"hk-{}-description\">\n"
@@ -190,7 +191,7 @@ try:
             outstring = "                 <article class=\"description\">\n{}               </article>\n"
 
             output.write(outstring.format(
-                project_data[current_project_count][19]))
+                project_data[current_project_count][20]))
 
             output.write(
                 "              </div> <!-- description-knowl -->\n")
@@ -199,7 +200,7 @@ try:
 # Badges
             output.write(
                 "\n          <div class=\"badges\">\n             <p>\n")
-            project_recognition_code = project_data[current_project_count][21]
+            project_recognition_code = project_data[current_project_count][22]
 
             cursor.execute(
                 "SELECT * from recognition WHERE recognition_code=?", (project_recognition_code,))
@@ -217,7 +218,7 @@ try:
             output.write(outstring.format(r_name, r_URL))
 
 # Features list of badges
-            project_features_str = project_data[current_project_count][20]
+            project_features_str = project_data[current_project_count][21]
             project_features_count = 0
 
             while (project_features_count < len(project_features_str)):
