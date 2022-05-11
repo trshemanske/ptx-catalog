@@ -1,0 +1,66 @@
+There are three programs that intertwine:
+
+The start page is ptx-catalog-identify.php.   It's job is to decide if you are updating an existing
+project or entering a new one.  It will search for xml_id's given a valid substring, so if you search for beezer,
+all of beezer's known xml_id's will be displayed.
+
+Enter an existing one to update, or a new one to create a new project.  New project creation asks for the number of coauthors.
+
+The update program, queries the database and populates the form with the existing data which you are free to edit and submit.
+
+The insert program starts with a blank slate.
+
+If something gets messed up, you really have to go back to the identify page since that page propagates the xml_id to the others.
+
+Successful submission of an insert of update simply says data has been submitted for processing, which means it has written a
+sql file for import following the instructions below.
+
+
+
+Advance prep for using the insert/update scripts for the ptx_catalog database.
+This assumes you have php installed on your webserver.  If you also install phpmyadmin, my guess is most
+of the dependencies relating php and apache will be loaded.
+
+
+
+cd to the directory containing the identify, insert and update scripts
+
+Make a directory titled ptx_catalog_updates which will receive the sql insert and update
+statements made by the scripts.  The webserver needs write permissions to that directory.
+
+So on a debian/ubuntu linux system with apache as the webserver we have:
+
+sudo mkdir ptx_catalog_updates
+sudo chown directory-owner.www-data ptx_catalog_updates
+sudo chmod 770 ptx_catalog_updates
+
+
+Once  updates are received, they should be visually inspected before uploading to the Mysql/Maria database
+to ensure nothing nefarious is being submitted. Backslashes are escaped in the fields:
+title, subtitle, one-sentence and full descriptions, so Math should work,
+e.g., \( e^{i\pi} + 1 = 0. \)
+
+Then sudo to root
+
+As root
+
+mysql ptx_catalog < xml_id-datestamp.sql
+
+or perhaps
+
+mysql -u root -p ptx_catalog < xml_id-datestamp.sql
+
+if you have not set up a
+.my.cnf file in root's home directory in the format:
+
+[client]
+user=root
+password=root password for mysql access
+
+
+If there are errors at the stage of inserting the mysql statements, you can just manually edit the sql files and retry.
+
+Note that the scripts upload changes first to projects and then to coauthors.
+If the error occurs within the projects part, just fix the file and retry.
+If the update to projects succeeds, and fails in coauthors, you can either delete the projects entry (phpmyadmin or command line mysql),
+fix the file and try again, or remove the updates to projects and fix the coauthor's entry.
