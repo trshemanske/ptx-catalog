@@ -94,8 +94,7 @@ Write all data to file in Mysql format for updating database
   $servername = "localhost";
   $username = "ptx";
   $password = "ptx_db_pw";
-  //  $dbname = "ptx_catalog;
-  $dbname = "ptx_catalog_dev";
+  $dbname = "ptx_catalog";
 
   // Create connection
   $connx = new mysqli($servername, $username, $password, $dbname);

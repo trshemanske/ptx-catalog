@@ -94,8 +94,7 @@ Write all data to file in Mysql format for updating database
   $servername = "localhost";
   $username = "ptx";
   $password = "ptx_db_pw";
-  //  $dbname = "ptx_catalog;
-  $dbname = "ptx_catalog_dev";
+  $dbname = "ptx_catalog";
 
   // Create connection
   $connx = new mysqli($servername, $username, $password, $dbname);
@@ -305,7 +304,7 @@ if ($_SESSION['validated'] == 0) {
   $outstr .= "     <select id=\"phase_id\"  name=\"project_phase_id\"><br>\n";
   foreach ($phases as $phase) {
     if ($display_project_phase_id == $phase['phase_id']) {$sstr = " selected";} else {$sstr = "";}
-    $outstr .= "          <label>".$featureIndexed[$i]."&emsp;&emsp;</label>\n";
+/*    $outstr .= "          <label>".$featureIndexed[$i]."&emsp;&emsp;</label>\n"; */
     $outstr .= "        <option value=\"". $phase['phase_id'] . "\""  . $sstr.">". $phase['phase_name']. "</option><br>\n";
   }
   $outstr .= "     </select><br><br><br>\n";
@@ -504,8 +503,8 @@ else{  /* validated --- generate Mysql statements */
   $sqlstr .= "project_source_URL = '" . $_POST['project_source_URL'] . "', \n";
   $sqlstr .= "project_html_URL = '" . $_POST['project_html_URL'] . "', \n";
   $sqlstr .= "project_pdf_URL = '" . $_POST['project_pdf_URL'] . "', \n";
-  $sqlstr .= "project_print_URL = '" . $_POST['project_print_URL'] . "' \n";
-  $sqlstr .= "project_ancillary_1 = '" . $_POST['project_ancillary_1'] . "' \n";
+  $sqlstr .= "project_print_URL = '" . $_POST['project_print_URL'] . "', \n";
+  $sqlstr .= "project_ancillary_1 = '" . $_POST['project_ancillary_1'] . "', \n";
   $sqlstr .= "project_ancillary_2 = '" . $_POST['project_ancillary_2'] . "' \n";
   $sqlstr .= "WHERE project_xml_id = '". $xml_id . "';\n\n";
 

@@ -78,7 +78,9 @@
     return htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
   }
 
-  $xml_id = $xml_id_partial = $xml_idErr = "";
+  $xml_id = "";
+  $xml_id_partial = "";
+  $xml_idErr = "";
   ?>
 
   <div class="header">
@@ -123,7 +125,7 @@
           $servername = "localhost";
           $username = "ptx";
           $password = "ptx_db_pw";
-          $dbname = "ptx_catalog_dev";
+          $dbname = "ptx_catalog";
 
           // Create connection
           $connx = new mysqli($servername, $username, $password, $dbname);
@@ -142,7 +144,8 @@
         <p>
           <?php
           /* Search for partial xml id  */
-          if ($_POST["xml_id_partial"] == "" and $_POST['xml_id'] == "") {
+/*          if ($_POST['xml_id_partial'] == "" and $_POST['xml_id'] == "") {  */
+          if (empty($_POST)) {
             /* First pass through page looking for input to search */
 
             $outstr =  "<br><br><h3>Search for an XML id of an existing project:</h3>";
@@ -155,12 +158,13 @@
             $outstr .= "<button type=\"submit\" class=\"form-button\">Search</button><br></form>";
             echo $outstr;
           }
-          elseif ($_POST["xml_id_partial"] != "" and $_POST['xml_id'] == "")
+/*          elseif ($_POST["xml_id_partial"] != "" and $_POST['xml_id'] == "")  */
+            elseif (!empty($_POST['xml_id_partial']) and empty($_POST['xml_id']))
           {
             /* Second pass through page; performing the search */
 
 
-            $xml_id_partial = $_POST["xml_id_partial"];
+            $xml_id_partial = $_POST['xml_id_partial'];
             $sql = "SELECT * FROM projects WHERE project_xml_id LIKE '%$xml_id_partial%'";
             $result = $connx->query($sql);
 
@@ -186,7 +190,7 @@
         <p>
           <?php
 
-          if ($_POST["xml_id"] == "") {
+          if (empty($_POST['xml_id'])) {
 
 //            echo "session id is ".session_id();
 
@@ -200,7 +204,7 @@
           }
           else
           {
-            $_SESSION["xml_id"] = $_POST["xml_id"];
+            $_SESSION['xml_id'] = $_POST['xml_id'];
             $xml_id = $_POST["xml_id"];
 //            echo "Searching for XML id = ".$xml_id."<br><br>";
 
